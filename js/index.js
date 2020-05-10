@@ -2,9 +2,6 @@
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-// ——————————————————————————————————————————————————
-// TextScramble
-// ——————————————————————————————————————————————————
 
 var TextScramble = function () {
   function TextScramble(el) {
@@ -77,11 +74,9 @@ var TextScramble = function () {
   return TextScramble;
 }();
 
-// ——————————————————————————————————————————————————
-// Example
-// ——————————————————————————————————————————————————
 
-var phrases = ['Neo,', 'sooner or later', 'you\'re going to realize', 'just as I did', 'that there\'s a difference', 'between knowing the path', 'and walking the path'];
+
+var phrases = ['Иногда хватает мгновения,', 'чтобы забыть жизнь,', 'а иногда не хватает жизни,', 'чтобы забыть мгновение.'];
 
 var el = document.querySelector('.text');
 var fx = new TextScramble(el);
